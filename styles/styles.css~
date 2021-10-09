@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "HEAVYWEIGHT";
+    src: url("../fonts/HEAVYWEI.ttf");
+}
+
+.div-heading {
+    width: 90%;
+    margin: auto;
+    padding: 2%;
+    background: #c0bfbc;
+    border-radius: 5px;
+    font-family: "HEAVYWEIGHT";
+    font-size: 200%;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 1%;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.div-main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /*border: medium solid rgb(0, 0, 0);*/
+}
+
