@@ -12,8 +12,13 @@ div {
     padding: 3%;
 }
 
+.div-social {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .div-heading {
-    width: 90%;
+    width: 70%;
     margin: auto;
     padding: 2%;
     background: #c0bfbc;
@@ -32,7 +37,7 @@ div {
 }
 
 .div-main {
-    width: 90%;
+    width: 70%;
     margin: auto;
     display: flex;
     justify-content: center;
