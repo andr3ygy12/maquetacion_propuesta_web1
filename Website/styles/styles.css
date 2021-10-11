@@ -1,218 +1,248 @@
 html {
-    box-sizing: border-box;
-    font-size: 16px;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 @font-face {
-    font-family: "HEAVYWEIGHT";
-    src: url("../fonts/HEAVYWEI.ttf");
+  font-family: "HEAVYWEIGHT";
+  src: url("../fonts/HEAVYWEI.ttf");
 }
 
 @font-face {
-    font-family: "CANTARELL";
-    src: url("../fonts/CANTARELL.otf");
+  font-family: "CANTARELL";
+  src: url("../fonts/CANTARELL.otf");
 }
 
-h1,h2,h3,h4,h5 {
-    font-family: "HEAVYWEIGHT";
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "HEAVYWEIGHT";
 }
 
 p {
-    font-family: "CANTARELL";
+  font-family: "CANTARELL";
 }
 
 .div-social {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .img-logo {
-    height: 20px;
-    width: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .div-heading {
-    width: 70%;
-    margin: auto;
-    padding: 0.8rem;
-    /*margin-bottom: 2rem;*/
-    border-radius: 5px;
-    font-family: "HEAVYWEIGHT";
-    font-size: 2rem;
+  width: 70%;
+  margin: auto;
+  padding: 0.8rem;
+  /*margin-bottom: 2rem;*/
+  border-radius: 5px;
+  font-family: "HEAVYWEIGHT";
+  font-size: 2rem;
 }
 
 .nav-list {
-    width: 40%;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
+  width: 40%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main-header {
-    margin: auto;
-    width: 60%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    background-color: #c0bfbc;
-    border-radius: 5px;
+  margin: auto;
+  width: 60%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  background-color: #c0bfbc;
+  border-radius: 5px;
 }
 
 .nav-main {
-    flex-basis: 50%;
-    padding: 1rem;
+  flex-basis: 50%;
+  padding: 1rem;
 }
 .ul-main {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .list-item {
-    padding: 0.5rem;
+  padding: 0.5rem;
 }
 .link-item {
-    font-size: 1.5rem;
-    color: #000;
-    text-decoration: none;
+  font-size: 1.5rem;
+  color: #000;
+  text-decoration: none;
 }
 .link-item:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .icon-article {
-    flex-basis: 5%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-right: 1rem;
+  flex-basis: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 1rem;
 }
 .icon-article i {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .image-nav {
-    height: 2rem;
+  height: 2rem;
 }
 
-a:hover, .icon-article {
-    color: #0b9d57ff;
+a:hover,
+.icon-article {
+  color: #0b9d57ff;
 }
 
 .main-section {
-    width: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .art-slogan {
-    display: flex;
-    flex-basis: 30%;
-    justify-content: flex-end;
+  display: flex;
+  flex-basis: 30%;
+  justify-content: flex-end;
 }
 
 .img-slogan {
-    height: 95%;
-    width: 95%;
+  height: 95%;
+  width: 95%;
 }
 
 .list-item {
-    font-family: "HEAVYWEIGHT";
+  font-family: "HEAVYWEIGHT";
 }
 
 .art-mision-vision {
-    width: 60%;
-    margin: auto;
+  width: 60%;
+  margin: auto;
 }
 
 .art-mision-vision-h {
-    text-align: center;
+  text-align: center;
 }
 
 .nav-bar {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-images {
-    width: 8%;
-    display: flex;
-    justify-content: space-between;
+  width: 8%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .div-main {
-    width: 70%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    /*border: medium solid rgb(0, 0, 0);*/
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  /*border: medium solid rgb(0, 0, 0);*/
 }
 
 .store-item {
-    padding: 1rem;
-    width: 60%;
-    margin: auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    border: dotted;
+  padding: 1rem;
+  width: 60%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  border: dotted;
 }
 
 .store-item-img {
-    height: 200px;
-    width: 200px;
+  height: 200px;
+  width: 200px;
 }
 
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
 .login-frame {
-    width: 60%;
-    margin: auto;
-    padding: 3rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  padding: 3rem;
 }
 
 .login-border {
-    padding: 4rem;
-    width: 60%;
-    margin: auto;
-    border: dotted;
-    border-radius: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4rem;
+  width: 60%;
+  height: 60vh;
+  border: dotted;
+  border-radius: 1rem;
 }
 
 .login-pic {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .login-fields {
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column nowrap;
+  padding: 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .login-field {
-    height: 3rem;
+  border: none;
+  border-bottom: 2px solid #000;
+  margin: 1rem 0;
+}
+
+.login-field:focus-visible {
+  outline: none;
 }
 
 .login-buttons {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
+  width: 60%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+.login-buttons input[type="submit"] {
+  padding: 0.5rem;
 }
