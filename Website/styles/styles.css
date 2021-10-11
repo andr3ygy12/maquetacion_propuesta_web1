@@ -97,24 +97,21 @@ p {
 }
 
 .icon-article {
-  flex-basis: 5%;
+  flex-basis: 10%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-right: 1rem;
 }
-.icon-article i {
-  font-size: 2rem;
+
+.image-nav{
+    height: 2rem;
 }
 
-.image-nav {
-  height: 2rem;
-}
-
-a:hover,
-.icon-article {
+a:hover{
   color: #0b9d57ff;
 }
+
 
 .main-section {
   width: 100%;
@@ -165,11 +162,10 @@ a:hover,
   display: flex;
   justify-content: center;
   margin-top: 10px;
-  /*border: medium solid rgb(0, 0, 0);*/
 }
 
 .store-item {
-  padding: 1rem;
+  padding: .5rem;
   width: 60%;
   margin: auto;
   margin-top: 1rem;
@@ -183,6 +179,16 @@ a:hover,
 .store-item-img {
   height: 200px;
   width: 200px;
+}
+
+.item-title{
+    font-size: 2rem;
+}
+.text-item{
+    font-size: 1.2rem;
+}
+.buy-link{
+    font-size: 1.2rem;
 }
 
 main {
