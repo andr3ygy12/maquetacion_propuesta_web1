@@ -108,7 +108,7 @@ p {
 }
 
 a:hover, .icon-article {
-    color: #ff0000;
+    color: #0b9d57ff;
 }
 
 .main-section {
@@ -171,10 +171,48 @@ a:hover, .icon-article {
     margin-bottom: 1rem;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     border: dotted;
 }
 
 .store-item-img {
-    height: 10rem;
+    height: 200px;
+    width: 200px;
+}
+
+.login-frame {
+    width: 60%;
+    margin: auto;
+    padding: 3rem;
+}
+
+.login-border {
+    padding: 4rem;
+    width: 60%;
+    margin: auto;
+    border: dotted;
+    border-radius: 1rem;
+}
+
+.login-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.login-fields {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.login-field {
+    height: 3rem;
+}
+
+.login-buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
 }
